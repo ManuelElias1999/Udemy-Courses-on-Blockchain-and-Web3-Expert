@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_account",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_accountSC",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "propietario",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_smartcontractPadre",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/3_factory.sol": "hijo"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/3_factory.sol": {
+			"keccak256": "0x0acbad22dfc6f329b1cfa0a396de1ce9681d0a6c2f413ae903fd5b6266950a85",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0823b2d66004266fb8b39f54e76776c9a3b2948990c896086925986095a612dd",
+				"dweb:/ipfs/QmfRmFBQx2r1fM25ehegxy7XrvySPs3b8gc9YgotPmfC4L"
+			]
+		}
+	},
+	"version": 1
+}
